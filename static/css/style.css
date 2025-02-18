@@ -1,0 +1,74 @@
+/* Fondo rosa pastel */
+body {
+    background-color: #FDE8E8; /* Rosa pastel */
+    color: #6C757D; /* Gris suave */
+}
+
+/* Estilo del nombre principal */
+.brand-name {
+    font-family: 'Playfair Display', serif; /* Fuente más estética */
+    font-size: 2.5rem; /* Tamaño más grande */
+    font-weight: bold; /* Texto en negrita */
+    color: #A9A9A9; /* Gris claro */
+}
+
+.brand-name:hover {
+    color: #6C757D; /* Gris más oscuro al pasar el ratón */
+}
+
+/* Títulos */
+h1, h2 {
+    color: #6C757D; /* Gris suave */
+    font-family: 'Roboto', sans-serif; /* Fuente general */
+}
+
+/* Navbar */
+.navbar {
+    background-color: #F9E5E5; /* Rosa claro */
+}
+
+.nav-link {
+    color: #6C757D !important; /* Gris suave */
+}
+
+.nav-link:hover {
+    color: #343A40 !important; /* Gris más oscuro al pasar el ratón */
+}
+
+/* Footer */
+footer {
+    background-color: #F9E5E5;
+    color: #6C757D;
+    padding: 15px;
+}
+/* Sección de Portafolio */
+#portfolio {
+    background-color: #F9E5E5; /* Fondo suave para contrastar */
+    padding: 2rem;
+    border-radius: 10px;
+}
+
+.card {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    border: none;
+    border-radius: 10px; /* Bordes redondeados */
+}
+
+.card-img-top {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.card-title {
+    color: #6C757D; /* Gris suave */
+    font-weight: bold;
+}
+
+.card-footer .btn {
+    background-color: #6C757D; /* Gris oscuro */
+    color: #FFF;
+}
+
+.card-footer .btn:hover {
+    background-color: #343A40; /* Gris más oscuro */
+}
